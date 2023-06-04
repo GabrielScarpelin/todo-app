@@ -1,0 +1,17 @@
+.task{
+    color: black;
+    display: flex;
+    gap: 2rem;
+    width: 20rem;
+    justify-content: space-around;
+    border-radius: 100%;
+    align-items: center;
+}
+.task button{
+    padding: .4rem;
+    cursor: pointer;
+    
+}
+.task p.checked{
+    text-decoration-line: line-through;
+}
